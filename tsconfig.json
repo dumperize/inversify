@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./app",
+    "outDir": "./build",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react",
+    "target": "ES2015",
+    "allowJs": true,
+    "sourceMap": true,
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+//    "strict": true,
+    "strictNullChecks": true,
+//    "noImplicitAny": true,
+//    "strictFunctionTypes": true,
+//    "strictBindCallApply": true,
+//    "strictPropertyInitialization": true,
+//    "noImplicitThis": true,
+//    "alwaysStrict": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2019",
+    ]
+  },
+  "include": [
+    "./app",
+    "../config",
+    "./*.js"
+  ]
+}
